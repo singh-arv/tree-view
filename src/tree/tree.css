@@ -1,0 +1,42 @@
+ul {
+  list-style: none;
+}
+
+.mainWrapper {
+  border: 2px solid grey;
+  color: #000;
+  border-radius: 6px;
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.tree-wrapper {
+  margin: 0;
+  padding-inline-start: 25px;
+}
+
+.itemTitle {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+}
+
+.openCloseIcon {
+  opacity: 0.4;
+}
+
+.actionButtonsWrapper {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.actionButtonsWrapper button {
+  cursor: pointer;
+  margin-left: 0.25rem;
+}
+
+.actionButtonsWrapper button {
+  font-size: x-small;
+}
