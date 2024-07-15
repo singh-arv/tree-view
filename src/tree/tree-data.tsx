@@ -1,35 +1,76 @@
 const treeData = [
   {
-    id: "1",
-    displayName: "1",
+    id: "components1",
+    displayName: "components",
     type: "folder",
     children: [
       {
-        id: "11",
-        displayName: "11",
+        id: "users1",
+        displayName: "Users",
         type: "folder",
         children: [
           {
-            id: "111",
-            displayName: "111",
+            id: "addUser1",
+            displayName: "AddUsers",
             type: "folder",
-            children: [{ id: "1111", displayName: "1111", type: "file" }],
+            children: [
+              {
+                id: "addSingleUser",
+                displayName: "AddSingleUser",
+                type: "file",
+              },
+              {
+                id: "addMultiUsers1",
+                displayName: "AddMultiUsers",
+                type: "file",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "settings1",
+        displayName: "Settings",
+        type: "folder",
+        children: [
+          {
+            id: "addSetting1",
+            displayName: "AddSettings",
+            type: "folder",
+            children: [
+              {
+                id: "addSingleSetting",
+                displayName: "AddSingleSetting",
+                type: "file",
+              },
+              {
+                id: "addMultiSettings1",
+                displayName: "AddMultisettings",
+                type: "file",
+              },
+            ],
           },
         ],
       },
     ],
   },
   {
-    id: "2",
-    displayName: "2",
+    id: "hooks2",
+    displayName: "hooks",
     type: "folder",
-    children: [{ id: "21", displayName: "21", type: "file" }],
+    children: [
+      { id: "usePrevious21", displayName: "usePrevious", type: "file" },
+      { id: "useThrottle21", displayName: "useThrotte", type: "file" },
+    ],
   },
   {
-    id: "3",
-    displayName: "3",
+    id: "provider1",
+    displayName: "Providers",
     type: "folder",
-    children: [{ id: "31", displayName: "31", type: "file" }],
+    children: [
+      { id: "provider31", displayName: "UserProvider", type: "file" },
+      { id: "provider32", displayName: "SettingProvider", type: "file" },
+    ],
   },
 ];
 
